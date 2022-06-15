@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-color: #4c1036;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    color: #d9e5ff;
+    font-family: 'Abel';
+}
+.title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.underline {
+    border-bottom: #71a9f7 5px solid;
+    width: 10%;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.underline2 {
+    border-bottom: #71a9f7 5px solid;
+    width: 50%;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box-container {
+    background-color: #6b5ca5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    height: 35rem;
+    width: 35rem;
+}
+.presentation-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-container {
+    margin: 20px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+#jobDescription {
+    width: 75%;
+    height: 75%;
+    font-size: 18px;
+    margin: 25px;
+    text-align: center;
+}
+#personName {
+    font-size: 34px;
+}
+#job {
+    font-size: 24px;
+}
+.buttons {
+    position: absolute;
+    bottom: 3%;
+}
+.btn {
+    background-color: #71a9f7;
+    border: 0;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.btn:active {
+    transform: translateY(4px);
+}
